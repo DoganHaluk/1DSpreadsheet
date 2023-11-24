@@ -9,7 +9,7 @@ public class Main {
         ArrayList<Integer> cellsWithEmptyValues = new ArrayList<>();
         int emptyCell = 0;
         try {
-            File myObj = new File("C:\\Users\\Dogan\\IdeaProjects\\oneDSpreadsheet\\src\\test11.txt");
+            File myObj = new File("src/test11.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String line = myReader.nextLine();
